@@ -340,8 +340,12 @@
                                     <td class='student-id'>{$row['id']}</td>
                                     <td class='student-name'>{$row['name']}</td>
                                     <td class='action-cell'>
+                                        <a href='edit.php?id={$row['id']}' class='btn btn-yellow'>
+                                            <i class='fas fa-edit'></i> Edit
+                                        </a>
                                         <a href='delete.php?id={$row['id']}' class='btn btn-danger'>
                                             <i class='fas fa-trash'></i> Delete
+                                            
                                         </a>
                                     </td>
                                 </tr>";
